@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    body {
+    background-color: lemonchiffon;
+    }
+</style>
+{% endblock head %}
+
+{% block bbody %}
+        <span>base->incorrect</span>
+        {% block myform %}
+                block failed
+        {% endblock myform %}
+{% endblock bbody %}

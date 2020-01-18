@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block head %}
+<style>
+    body {
+    background-color: lemonchiffon;
+    }
+</style>
+{% endblock head %}
+
+{% block bbody %}
+        <span>base->correct</span>
+        {% include 'correct_piece.html' %}
+{% endblock bbody %}
